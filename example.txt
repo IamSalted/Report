@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!--Made by Bongon and Basbas -->
+
+
+</head>
+<body>
+
+  <div class="animated fadeIn">
+  <div role="tablist"  aria-multiselectable="true">
+                    <div class="box box-black">
+                      <div class="card">
+                        <div class="card-header">
+                  <div class="rv panel-heading">
+                    <div-header header-card="header" role="tab">
+                        <div class="box-header row no-margin"> 
+                        <div class="col-xs-6 col-md-7">
+                      <a role="button" aria-expanded="true" aria-controls="collapseOne">
+                        <div block href="#" v-b-toggle.accordion1 variant="info">
+                          <h2 style="font-size: x-large; color:black">Daily Orders</h2></div></a>
+                        </div>
+                          <div class="col-xs-6 col-md-5"><input type="date" value="" id="dailydate" class="form-control pull-right"></div>
+                        </div>
+                    </div-header>
+                  </div>
+                  </div>
+                    
+                    <b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel"> 
+                      <b-card-body>
+                          <div class="panel-body">
+                              <div class="box-body table-responsive">
+                              <div id="dailycontainer">
+                                  <h3 class="row no-margin text-center" style="font-size: large; color:black">No available data</h3>
+                                </div>
+                                </div>
+                                </div>
+                      </b-card-body>
+                    </b-collapse>
+                  </div>
+                  </div>
+                  
+                  <div role="tablist" class="clearfix" aria-multiselectable="true">
+                      <div class="box box-black">
+                          <div class="card">
+                            <div class="card-header">
+                    <div class="rv panel-heading" >
+                      <div-header header-tag="header" role="tab">
+                          <div class="box-header row no-margin"> 
+                          <div class="col-xs-6 col-md-7">
+                        <a role="button" aria-expanded="true" aria-controls="collapseTwo">
+                          <div block href="#" v-b-toggle.accordion2 variant="info">
+                            <h2 class="panel-heading box-title box-title-big ag-txt-color" style="font-size: x-large; color:black">Weekly Orders</h2></div></a>
+                          </div>
+                            <div class="col-xs-6 col-md-5"><select id="weekrange" class="form-control pull-right">
+                                <option>2019-01-01 - 2019-01-06</option>
+                                <option>2019-01-07 - 2019-01-13</option>
+                                <option>2019-01-14 - 2019-01-20</option>
+                                <option>2019-01-21 - 2019-01-27</option>
+                                <option>2019-01-28 - 2019-01-31</option>
+                                <option>2019-02-01 - 2019-02-03</option>
+                                <option>2019-02-04 - 2019-02-10</option>
+                                <option>2019-02-11 - 2019-02-17</option>
+                                <option>2019-02-18 - 2019-02-24</option>
+                                <option>2019-02-25 - 2019-02-28</option>
+                                <option>2019-03-01 - 2019-03-03</option>
+                                <option>2019-03-04 - 2019-03-10</option>
+                                <option>2019-03-11 - 2019-03-17</option>
+                                <option>2019-03-18 - 2019-03-24</option>
+                                <option>2019-03-25 - 2019-03-31</option>
+                                <option>2019-04-01 - 2019-04-07</option>
+                                <option>2019-04-08 - 2019-04-14</option>
+                                <option>2019-04-15 - 2019-04-21</option>
+                                <option>2019-04-22 - 2019-04-28</option>
+                                <option>2019-04-29 - 2019-04-30</option>
+                                <option>2019-05-01 - 2019-05-05</option>
+                                <option>2019-05-06 - 2019-05-12</option>
+                                <option>2019-05-13 - 2019-05-19</option>
+                                <option>2019-05-20 - 2019-05-26</option>
+                                <option>2019-05-27 - 2019-05-31</option>
+                                <option>2019-06-01 - 2019-06-02</option>
+                                <option>2019-06-03 - 2019-06-09</option>
+                                <option>2019-06-10 - 2019-06-16</option>
+                                <option>2019-06-17 - 2019-06-23</option>
+                                <option>2019-06-24 - 2019-06-30</option>
+                                <option>2019-07-01 - 2019-07-07</option>
+                                <option>2019-07-08 - 2019-07-14</option>
+                                <option>2019-07-15 - 2019-07-21</option>
+                                <option>2019-07-22 - 2019-07-28</option>
+                                <option>2019-07-29 - 2019-07-31</option>
+                                <option>2019-08-01 - 2019-08-04</option>
+                                <option>2019-08-05 - 2019-08-11</option>
+                                <option>2019-08-12 - 2019-08-18</option>
+                                <option>2019-08-19 - 2019-08-25</option>
+                                <option>2019-08-26 - 2019-08-31</option>
+                                <option>2019-09-02 - 2019-09-08</option>
+                                <option>2019-09-09 - 2019-09-15</option>
+                                <option>2019-09-16 - 2019-09-22</option>
+                                <option>2019-09-23 - 2019-09-29</option>
+                                <option>2019-10-01 - 2019-10-06</option>
+                                <option>2019-10-07 - 2019-10-13</option>
+                                <option>2019-10-14 - 2019-10-20</option>
+                                <option>2019-10-21 - 2019-10-27</option>
+                                <option>2019-10-28 - 2019-10-31</option>
+                                <option>2019-11-01 - 2019-11-03</option>
+                                <option>2019-11-04 - 2019-11-10</option>
+                                <option>2019-11-11 - 2019-11-17</option>
+                                <option>2019-11-18 - 2019-11-24</option>
+                                <option>2019-11-25 - 2019-11-30</option>
+                                <option>2019-12-02 - 2019-12-08</option>
+                                <option>2019-12-09 - 2019-12-15</option>
+                                <option>2019-12-16 - 2019-12-22</option>
+                                <option>2019-12-23 - 2019-12-29</option>
+                                <option>2019-12-30 - 2019-12-31</option>
+                                </select>
+                              </div>
+                          </div>
+                      </div-header>
+                      </div>
+                      </div>
+                      
+                      <b-collapse id="accordion2" visible accordion="my-accordion" role="tabpanel"> 
+                        <b-card-body>
+                            <div class="panel-body">
+                                <div class="box-body table-responsive">
+                                <div id="dailycontainer">
+                                    <h3 class="row no-margin text-center" style="font-size:large; color:black">No available data</h3>
+                                  </div>
+                                  </div>
+                                  </div>
+                        </b-card-body>
+                      </b-collapse>
+                    </div>
+                    </div>
+                
+                    
+                    <div role="tablist" class="clearfix" aria-multiselectable="true">
+                        <div class="box box-black">
+                            <div class="card">
+                              <div class="card-header">
+                      <div class="rv panel-heading">
+                        <div-header header-tag="header" role="tab">
+                            <div class="box-header row no-margin"> 
+                            <div class="col-xs-6 col-md-7">
+                          <a role="button" aria-expanded="true" aria-controls="collapseThree">
+                            <div block href="#" v-b-toggle.accordion3 variant="info">
+                              <h2 style="font-size:x-large; color:black"> Montly Orders</h2></div></a>
+                            </div>
+                              <div class="col-xs-6 col-md-5"><select id="years" class="form-control pull-right">
+                                  <option>January</option>
+                                  <option>February</option>
+                                  <option>March</option>
+                                  <option>April</option>
+                                  <option>May</option>
+                                  <option>June</option>
+                                  <option>July</option>
+                                  <option>August</option>
+                                  <option>September</option>
+                                  <option>October</option>
+                                  <option>November</option>
+                                  <option>October</option>
+                                  </select>
+                                </div>
+                            </div>
+                        </div-header>
+                        </div>
+                        </div>
+
+                        <b-collapse id="accordion3" visible accordion="my-accordion" role="tabpanel"> 
+                          <b-card-body>
+                              <div class="panel-body">
+                                  <div id="monthlyordercontainer">
+                                      <div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                      <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0">
+                                      </div>
+                                      </div>
+                                      <div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                      <div style="position:absolute;width:200%;height:200%;left:0; top:0">
+                                      </div>
+                                      </div>
+                                      </div>
+                                      
+                                      <canvas id="monthlyorderchart" width="588" height="588" class="chartjs-render-monitor" style="display: block; width: 294px; height: 294px;">
+                                      </canvas>
+                                      </div>
+                                      </div>
+                          </b-card-body>
+
+                        </b-collapse>
+                      </div>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+              </template>
+
+
+              <template>
+                  <div role="tablist" class="clearfix" aria-multiselectable="true">
+                      <div class="box box-black">
+                          <div class="card">
+                            <div class="card-header">
+                    <div class="rv panel-heading">
+                      <div-header header-tag="header" role="tab">
+                          <div class="box-header row no-margin"> 
+                          <div class="col-xs-6 col-md-7">
+                        <a role="button" aria-expanded="true" aria-controls="collapseFour">
+                          <div block href="#" v-b-toggle.accordion4 variant="info">
+                            <h2 style="font-size:x-large; color:black">Daily Top Products</h2></div></a>
+                          </div>
+                            <div class="col-xs-6 col-md-5"><input type="date" value="" id="dailydate" class="form-control pull-right"></div>
+                          </div>
+                      </div-header>
+                      </div>
+                      </div>
+                      
+                      <b-collapse id="accordion4" visible accordion="my-accordion" role="tabpanel"> 
+                        <b-card-body>
+                            <div class="panel-body">
+                                <div class="box-body table-responsive">
+                                <div id="dailycontainer">
+                                    <h3 class="row no-margin text-center" style="font-size:large; color:black">No available data</h3>
+                                  </div>
+                                  </div>
+                                  </div>
+                        </b-card-body>
+                      </b-collapse>
+                    </div>
+                    </div>
+
+                    <div role="tablist" class="clearfix" aria-multiselectable="true">
+                        <div class="box box-black">
+                            <div class="card">
+                              <div class="card-header">
+                      <div class="rv panel-heading">
+                        <div-header header-tag="header" role="tab">
+                            <div class="box-header row no-margin"> 
+                            <div class="col-xs-6 col-md-7">
+                          <a role="button" aria-expanded="true" aria-controls="collapseFive">
+                            <div block href="#" v-b-toggle.accordion5 variant="info">
+                              <h2 style="font-size:x-large; color:black">Weekly Top Products</h2></div></a>
+                            </div>
+                              <div class="col-xs-6 col-md-5"><select id="weekrange" class="form-control pull-right">
+                                  <option>2019-01-01 - 2019-01-06</option>
+                                  <option>2019-01-07 - 2019-01-13</option>
+                                  <option>2019-01-14 - 2019-01-20</option>
+                                  <option>2019-01-21 - 2019-01-27</option>
+                                  <option>2019-01-28 - 2019-01-31</option>
+                                  <option>2019-02-01 - 2019-02-03</option>
+                                  <option>2019-02-04 - 2019-02-10</option>
+                                  <option>2019-02-11 - 2019-02-17</option>
+                                  <option>2019-02-18 - 2019-02-24</option>
+                                  <option>2019-02-25 - 2019-02-28</option>
+                                  <option>2019-03-01 - 2019-03-03</option>
+                                  <option>2019-03-04 - 2019-03-10</option>
+                                  <option>2019-03-11 - 2019-03-17</option>
+                                  <option>2019-03-18 - 2019-03-24</option>
+                                  <option>2019-03-25 - 2019-03-31</option>
+                                  <option>2019-04-01 - 2019-04-07</option>
+                                  <option>2019-04-08 - 2019-04-14</option>
+                                  <option>2019-04-15 - 2019-04-21</option>
+                                  <option>2019-04-22 - 2019-04-28</option>
+                                  <option>2019-04-29 - 2019-04-30</option>
+                                  <option>2019-05-01 - 2019-05-05</option>
+                                  <option>2019-05-06 - 2019-05-12</option>
+                                  <option>2019-05-13 - 2019-05-19</option>
+                                  <option>2019-05-20 - 2019-05-26</option>
+                                  <option>2019-05-27 - 2019-05-31</option>
+                                  <option>2019-06-01 - 2019-06-02</option>
+                                  <option>2019-06-03 - 2019-06-09</option>
+                                  <option>2019-06-10 - 2019-06-16</option>
+                                  <option>2019-06-17 - 2019-06-23</option>
+                                  <option>2019-06-24 - 2019-06-30</option>
+                                  <option>2019-07-01 - 2019-07-07</option>
+                                  <option>2019-07-08 - 2019-07-14</option>
+                                  <option>2019-07-15 - 2019-07-21</option>
+                                  <option>2019-07-22 - 2019-07-28</option>
+                                  <option>2019-07-29 - 2019-07-31</option>
+                                  <option>2019-08-01 - 2019-08-04</option>
+                                  <option>2019-08-05 - 2019-08-11</option>
+                                  <option>2019-08-12 - 2019-08-18</option>
+                                  <option>2019-08-19 - 2019-08-25</option>
+                                  <option>2019-08-26 - 2019-08-31</option>
+                                  <option>2019-09-02 - 2019-09-08</option>
+                                  <option>2019-09-09 - 2019-09-15</option>
+                                  <option>2019-09-16 - 2019-09-22</option>
+                                  <option>2019-09-23 - 2019-09-29</option>
+                                  <option>2019-10-01 - 2019-10-06</option>
+                                  <option>2019-10-07 - 2019-10-13</option>
+                                  <option>2019-10-14 - 2019-10-20</option>
+                                  <option>2019-10-21 - 2019-10-27</option>
+                                  <option>2019-10-28 - 2019-10-31</option>
+                                  <option>2019-11-01 - 2019-11-03</option>
+                                  <option>2019-11-04 - 2019-11-10</option>
+                                  <option>2019-11-11 - 2019-11-17</option>
+                                  <option>2019-11-18 - 2019-11-24</option>
+                                  <option>2019-11-25 - 2019-11-30</option>
+                                  <option>2019-12-02 - 2019-12-08</option>
+                                  <option>2019-12-09 - 2019-12-15</option>
+                                  <option>2019-12-16 - 2019-12-22</option>
+                                  <option>2019-12-23 - 2019-12-29</option>
+                                  <option>2019-12-30 - 2019-12-31</option>
+                                  </select>
+                                </div>
+                            </div>
+                        </div-header>
+                        </div>
+                        </div>
+                        
+                        <b-collapse id="accordion5" visible accordion="my-accordion" role="tabpanel"> 
+                          <b-card-body>
+                              <div class="panel-body">
+                                  <div class="box-body table-responsive">
+                                  <div id="dailycontainer">
+                                      <h3 class="row no-margin text-center" style="font-size:large; color:black">No available data</h3>
+                                    </div>
+                                    </div>
+                                    </div>
+                          </b-card-body>
+                        </b-collapse>
+                      </div>
+                      </div> 
+
+                      <div role="tablist" class="clearfix" aria-multiselectable="true">
+                          <div class="box box-black">
+                              <div class="card">
+                                <div class="card-header">
+                        <div class="rv panel-heading">
+                          <div-header header-tag="header" role="tab">
+                              <div class="box-header row no-margin"> 
+                              <div class="col-xs-6 col-md-7">
+                            <a role="button" aria-expanded="true" aria-controls="collapseSix">
+                              <div block href="#" v-b-toggle.accordion6 variant="info">
+                                <h2 class="panel-heading box-title box-title-big ag-txt-color" style="font-size:x-large; color:black">Monthly Top Products</h2></div></a>
+                              </div>
+                                <div class="col-xs-6 col-md-5"><select id="month" class="form-control pull-right">
+                                    <option value="1">January</option> 
+                                    <option value="2">February</option> 
+                                    <option value="3">March</option> 
+                                    <option value="4">April</option> 
+                                    <option value="5">May</option> 
+                                    <option value="6">June</option> 
+                                    <option value="7">July</option> 
+                                    <option value="8">August</option> 
+                                    <option value="9">September</option> 
+                                    <option value="10">October</option> 
+                                    <option value="11">November</option> 
+                                    <option value="12">December</option>
+                                    </select>
+                                    <select id="year" class="form-control pull-right">
+                                    <option>2018</option>
+                                    <option>2019</option>
+                                    <option>2020</option>
+                                    </select>
+                                    </div>
+                              </div>
+                          </div-header>
+                          </div>
+                          </div>
+                          
+                          <b-collapse id="accordion6" visible accordion="my-accordion" role="tabpanel"> 
+                            <b-card-body>
+                                <div class="panel-body">
+                                    <div id="monthlyorder" class="box-body table-responsive">
+                                        <div id="monthlycontainer">
+                                        <div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
+                                        <div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                        <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0">
+                                        </div>
+                                        </div>
+                                        <div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                        <div style="position:absolute;width:200%;height:200%;left:0; top:0">
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <canvas id="monthlychart" width="588" height="588" class="chartjs-render-monitor" style="display: block; width: 294px; height: 294px;">
+                                        </canvas>
+                                        </div>
+                                        </div>
+                                        </div>
+                            </b-card-body>
+                          </b-collapse>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+               </div>
+              </template>
+
+
+              
+              
+
+              <!-- accordion-1.vue -->
+
+            </div>       
+</body>
+</html>
